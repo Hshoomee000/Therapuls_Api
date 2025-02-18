@@ -66,6 +66,10 @@ app.add_middleware(
     allow_headers=["*"],  # اسمح لجميع الهيدرات
 )
 
+@app.get("/")
+def read_root():
+    return {"message": "Hello, world!"}
+
 
 with open("pose_Fast_classification_XGBoost_model.pkl", "rb") as file:
     model = pickle.load(file)
