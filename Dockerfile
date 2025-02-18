@@ -16,4 +16,4 @@ RUN pip install -r requirements.txt
 COPY . /app
 
 # تحديد التطبيق لتشغيله
-CMD ["uvicorn", "hello:app", "--host", "0.0.0.0", "--port", "8080"]
+CMD ["uvicorn", "hello:app", "--host", "0.0.0.0", "--port", "8000"]
