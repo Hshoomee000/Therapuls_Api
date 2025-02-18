@@ -8,4 +8,4 @@ xgboost
 pickle-mixin
 python-multipart
 opencv-python-headless
-
+protobuf 
