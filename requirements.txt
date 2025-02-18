@@ -8,5 +8,4 @@ xgboost
 pickle-mixin
 python-multipart
 opencv-python-headless
-libgl1-mesa-glx
 
