@@ -19,6 +19,7 @@ COPY . /app
 ENV PORT=8000
 
 # تشغيل التطبيق
-CMD ["sh", "-c", "uvicorn hello:app --host 0.0.0.0 --port ${PORT:-8000}"]
+CMD exec uvicorn hello:app --host 0.0.0.0 --port ${PORT:-8000}
+
 
 
